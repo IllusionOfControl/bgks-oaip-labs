@@ -1,0 +1,97 @@
+object Form1: TForm1
+  Left = 381
+  Height = 480
+  Top = 127
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 320
+  LCLVersion = '1.8.4.0'
+  object Label1: TLabel
+    Left = 32
+    Height = 15
+    Top = 60
+    Width = 46
+    Caption = 'Число A'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 128
+    Height = 23
+    Top = 56
+    Width = 160
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 15
+    Top = 108
+    Width = 45
+    Caption = 'Число B'
+    ParentColor = False
+  end
+  object Edit2: TEdit
+    Left = 128
+    Height = 23
+    Top = 104
+    Width = 160
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Left = 31
+    Height = 15
+    Top = 376
+    Width = 53
+    Caption = 'Результат'
+    ParentColor = False
+  end
+  object Edit3: TEdit
+    Left = 128
+    Height = 23
+    Top = 376
+    Width = 160
+    TabOrder = 2
+  end
+  object CheckBox1: TCheckBox
+    Left = 31
+    Height = 19
+    Top = 288
+    Width = 107
+    Caption = 'Форматировать'
+    TabOrder = 3
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 32
+    Height = 136
+    Top = 144
+    Width = 256
+    AutoFill = True
+    Caption = 'Операции'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 4
+    ClientHeight = 116
+    ClientWidth = 252
+    Columns = 4
+    Items.Strings = (
+      '+'
+      '-'
+      '*'
+      '/'
+    )
+    TabOrder = 4
+  end
+  object Button1: TButton
+    Left = 30
+    Height = 29
+    Top = 326
+    Width = 258
+    Caption = 'Выполнить действие'
+    OnClick = Button1Click
+    TabOrder = 5
+  end
+end

@@ -1,0 +1,123 @@
+object Form1: TForm1
+  Left = 419
+  Height = 254
+  Top = 184
+  Width = 277
+  Caption = 'Form1'
+  ClientHeight = 254
+  ClientWidth = 277
+  LCLVersion = '1.8.4.0'
+  object Label1: TLabel
+    Left = 9
+    Height = 15
+    Top = 7
+    Width = 114
+    Caption = 'Вариант 9. Задание 3'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 32
+    Height = 23
+    Top = 56
+    Width = 98
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 152
+    Height = 23
+    Top = 56
+    Width = 98
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 15
+    Top = 60
+    Width = 9
+    Caption = '1.'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 15
+    Top = 40
+    Width = 38
+    Caption = 'Объём'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 153
+    Height = 15
+    Top = 40
+    Width = 72
+    Caption = 'Температура'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 16
+    Height = 15
+    Top = 100
+    Width = 9
+    Caption = '2.'
+    ParentColor = False
+  end
+  object Edit3: TEdit
+    Left = 32
+    Height = 23
+    Top = 96
+    Width = 98
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 152
+    Height = 23
+    Top = 96
+    Width = 98
+    TabOrder = 3
+  end
+  object Label6: TLabel
+    Left = 16
+    Height = 15
+    Top = 140
+    Width = 9
+    Caption = '3.'
+    ParentColor = False
+  end
+  object Edit5: TEdit
+    Left = 32
+    Height = 23
+    Top = 136
+    Width = 98
+    TabOrder = 4
+  end
+  object Edit6: TEdit
+    Left = 152
+    Height = 23
+    Top = 136
+    Width = 98
+    TabOrder = 5
+  end
+  object Button1: TButton
+    Left = 32
+    Height = 28
+    Top = 169
+    Width = 220
+    Caption = 'Расчитать'
+    OnClick = Button1Click
+    TabOrder = 6
+  end
+  object Edit7: TEdit
+    Left = 32
+    Height = 23
+    Top = 208
+    Width = 98
+    TabOrder = 7
+  end
+  object Edit8: TEdit
+    Left = 152
+    Height = 23
+    Top = 208
+    Width = 98
+    TabOrder = 8
+  end
+end
